@@ -1,5 +1,3 @@
-package com.wandoujia.phoenix4.util;
-
 import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.BlockingQueue;
@@ -14,8 +12,6 @@ import java.util.concurrent.TimeUnit;
  * This thread pool will keep only one runnable is running at given time interval.
  * And if no task is to be executed and has been waiting for given aliveTimeMs time,
  * execute worker will be released.
- * 
- * @author tangqisen@wandoujia.com(Tang Qisen)
  */
 public class SingleThreadPoolWithIntervalTime {
 
